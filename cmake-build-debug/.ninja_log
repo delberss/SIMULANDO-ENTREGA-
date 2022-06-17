@@ -9,3 +9,6 @@
 12	1939	6771785609726408	CMakeFiles/test2.dir/src/list.cpp.obj	e8de3b917a174a5c
 5	1351	6771820771746422	CMakeFiles/test2.dir/tests/teste2.cpp.obj	4708c203309a3d42
 1351	1859	6771820776761706	test2.exe	eb761c75a8d6fdec
+4	1135	6771894200064157	CMakeFiles/funcionamentoHash.dir/src/hash.cpp.obj	77fcd78c02c5cd72
+1136	1326	6771894201939255	funcionamentoHash.exe	5c0e0d25146be9cb
+5	204	6771894494488539	funcionamentoHash.exe	5c0e0d25146be9cb
