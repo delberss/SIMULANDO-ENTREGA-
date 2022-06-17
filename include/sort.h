@@ -147,7 +147,7 @@ void combSort(int a[], int n)
     int n = sizeof(a)/sizeof(a[0]);
 
     combSort(a, n);
-    teste! teste!teste!teste!
+    teste! teste!teste!teste! teste!
 */
 /*=====================================================================================*/
 
