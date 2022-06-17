@@ -3,6 +3,7 @@
 #include <string>
 #include <sstream>
 #include "include/hash.h"
+#include <chrono>
 
 using namespace std;
 
@@ -16,11 +17,13 @@ int main(){
         switch (funcaoHash) {
             case 1:
                 cout << "-------------------------------\n";
-                cout << "  FUNCAO DE DIVISAO ESCOLHIDA  \n";
+                cout << "  FUNCAO HASH DE DIVISAO ESCOLHIDA  \n";
                 cout << "-------------------------------\n";
                 break;
             case 2:
-                cout << "FUNCAO DE MULTIPLICACAO ESCOLHIDA\n";
+                cout << "-------------------------------\n";
+                cout << "FUNCAO HASH DE MULTIPLICACAO ESCOLHIDA\n";
+                cout << "-------------------------------\n";
                 break;
             default:
                 cout << "------------------\n";
@@ -40,6 +43,7 @@ int main(){
     palavras_book.open("palavras_book.txt", ios::out | ios::app );
 
     if(arquivo_NomeArquivos.is_open()){
+        auto comeco_tempo = chrono::high_resolution_clock::now();
         string line_nomeArquivos;
 
         // ENQUANTO O ARQUIVO NOME_ARQUIVOS NAO CHEGAR AO FIM
@@ -125,14 +129,20 @@ int main(){
             }
         }
 
+        auto fim_tempo = chrono::high_resolution_clock::now();
         if(funcaoHash == 1){
-            cout << "FUNCAO HASH DE DIVISAO" << endl;
             cout << "NUMERO DE PALAVRAS: " << hash.totalDeItens() << endl;
             cout << "NUMERO DE COLISOES: " << hash.totalDeColisao() << endl;
         }
+        else if(funcaoHash == 2){
+            cout << "NUMERO DE PALAVRAS: " << hash.totalDeItens() << endl;
+            cout << "NUMERO DE COLISOES: " << hash.totalDeColisao() << endl;
+        }
+        cout << "TEMPO DE EXECUCAO: " << chrono::duration_cast<std::chrono::milliseconds>(fim_tempo-comeco_tempo).count()  << "ms" << endl;
     }
     else{
         cerr << "Nao foi possivel abrir o arquivo!";
     }
+
     return 0;
 }
