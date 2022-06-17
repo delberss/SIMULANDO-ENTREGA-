@@ -3,6 +3,7 @@
 
 #include <string.h>
 #include "list.h"
+#include "no.h"
 
 
 using namespace std;
