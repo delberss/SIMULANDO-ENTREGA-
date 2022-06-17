@@ -1,3 +1,10 @@
-#
-# Colocar o nomes dos arquivos que serão processador aqui:
-# 
+A Alma Nova.txt
+A Intrusa.txt
+A Mao e A Luva.txt
+Cancoes.txt
+Cinco minutos.txt
+Cintra.txt
+Folhas Soltas.txt
+O Federalismo.txt
+Paz e Arbitragem.txt
+Quincas Borba.txt
