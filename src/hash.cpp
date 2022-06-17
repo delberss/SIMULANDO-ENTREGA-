@@ -27,13 +27,13 @@ int Hash::funcaoHashPorDivisao(string chave){
 }
 
 int Hash::funcaoHashMultiplicacao(string chave){
-    int auxiliar = 0;
+    unsigned int auxiliar = 0;
 
     for(int i = 0; i < chave.length(); i++){
         auxiliar += chave[i] * (i + 1);
     };
 
-    return this->tamanho * ( fmod(auxiliar * K, 1));
+    return this->tamanho * ( fmod(auxiliar * this->K, 1));
 }
 
 void Hash::inserir(string chave, int metodo) {

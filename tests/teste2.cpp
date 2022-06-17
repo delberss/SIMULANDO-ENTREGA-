@@ -116,6 +116,7 @@ int main(){
                             if(!pulaFinal){
                                 hash.inserir(word_book_correta, funcaoHash);
                                 quantidade_palavras++;
+                                cout << quantidade_palavras << endl;
                             }
                         }
                         // GARANTE QUE LIMPOU AS VARIAVEIS DE WORD
@@ -138,7 +139,7 @@ int main(){
             cout << "NUMERO DE PALAVRAS: " << hash.totalDeItens() << endl;
             cout << "NUMERO DE COLISOES: " << hash.totalDeColisao() << endl;
         }
-        cout << "TEMPO DE EXECUCAO: " << chrono::duration_cast<std::chrono::milliseconds>(fim_tempo-comeco_tempo).count()  << "ms" << endl;
+        cout << "TEMPO DE PROCESSAMENTO: " << chrono::duration_cast<std::chrono::milliseconds>(fim_tempo-comeco_tempo).count()  << "ms" << endl;
     }
     else{
         cerr << "Nao foi possivel abrir o arquivo!";
