@@ -1,0 +1,6 @@
+# ninja log v5
+13	917	6771780580045327	CMakeFiles/funcionamentoHash.dir/src/no.cpp.obj	1aacde3ad99b584a
+1	1053	6771780581375341	CMakeFiles/funcionamentoHash.dir/tests/teste1.cpp.obj	63165c9e69629db3
+10	1083	6771780581755355	CMakeFiles/funcionamentoHash.dir/src/list.cpp.obj	69f40dbce636f934
+6	1100	6771780581955301	CMakeFiles/funcionamentoHash.dir/src/hash.cpp.obj	77fcd78c02c5cd72
+1100	1353	6771780584435291	funcionamentoHash.exe	5c0e0d25146be9cb

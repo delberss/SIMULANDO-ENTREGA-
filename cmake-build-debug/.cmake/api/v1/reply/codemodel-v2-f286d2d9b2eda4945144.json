@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "trabalho-pratico-parte-1-dnp",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "funcionamentoHash::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-funcionamentoHash-Debug-66f947e2f0c9722f3840.json",
 					"name" : "funcionamentoHash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test2-Debug-084b64551814ded2d22a.json",
+					"name" : "test2",
 					"projectIndex" : 0
 				}
 			]
