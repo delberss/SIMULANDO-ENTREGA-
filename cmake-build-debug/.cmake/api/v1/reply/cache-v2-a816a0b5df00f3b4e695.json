@@ -851,7 +851,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Project"
+			"value" : "trabalho-pratico-parte-1-dnp"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1255,6 +1255,42 @@
 		},
 		{
 			"name" : "Project_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/delbe/Documents/UFJF/6\u00b0periodo2022.1/DCC012ED2/TRABALHO-PRATICO/SIMULA ENTREGA PT1/trabalho-pratico-parte-1-dnp"
+		},
+		{
+			"name" : "trabalho-pratico-parte-1-dnp_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/delbe/Documents/UFJF/6\u00b0periodo2022.1/DCC012ED2/TRABALHO-PRATICO/SIMULA ENTREGA PT1/trabalho-pratico-parte-1-dnp/cmake-build-debug"
+		},
+		{
+			"name" : "trabalho-pratico-parte-1-dnp_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "trabalho-pratico-parte-1-dnp_SOURCE_DIR",
 			"properties" : 
 			[
 				{
