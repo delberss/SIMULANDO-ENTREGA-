@@ -1,0 +1,2 @@
+C:/Users/delbe/Documents/UFJF/6°periodo2022.1/DCC012ED2/TRABALHO-PRATICO/SIMULA ENTREGA PT1/trabalho-pratico-parte-1-dnp/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/delbe/Documents/UFJF/6°periodo2022.1/DCC012ED2/TRABALHO-PRATICO/SIMULA ENTREGA PT1/trabalho-pratico-parte-1-dnp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

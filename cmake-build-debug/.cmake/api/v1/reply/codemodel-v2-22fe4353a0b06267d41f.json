@@ -1,0 +1,39 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"projectIndex" : 0,
+					"source" : "."
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project"
+				}
+			],
+			"targets" : []
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/delbe/Documents/UFJF/6\u00b0periodo2022.1/DCC012ED2/TRABALHO-PRATICO/SIMULA ENTREGA PT1/trabalho-pratico-parte-1-dnp/cmake-build-debug",
+		"source" : "C:/Users/delbe/Documents/UFJF/6\u00b0periodo2022.1/DCC012ED2/TRABALHO-PRATICO/SIMULA ENTREGA PT1/trabalho-pratico-parte-1-dnp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
